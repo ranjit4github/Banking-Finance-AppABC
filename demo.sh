@@ -8,5 +8,5 @@ read name
 
 echo "My name is $name"
 echo "Enter your age:"
-read
+read age
 echo "I am $age years old!"
