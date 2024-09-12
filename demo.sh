@@ -10,3 +10,4 @@ echo "My name is $name"
 echo "Enter your age:"
 read age
 echo "I am $age years old!"
+echo "It is a lovely day today!"
