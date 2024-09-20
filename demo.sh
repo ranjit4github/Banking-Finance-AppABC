@@ -11,3 +11,4 @@ echo "Enter your age:"
 read age
 echo "I am $age years old!"
 echo "I am a teacher by Profession!"
+echo "This job is to demonstrate the poll scm trigger"
