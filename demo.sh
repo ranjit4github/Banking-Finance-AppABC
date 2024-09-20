@@ -10,5 +10,5 @@ echo "My name is $name"
 echo "Enter your age:"
 read age
 echo "I am $age years old!"
-echo "It is a lovely day today!"
-echo "This line is to demonstarte the conflict"
+echo "I am a teacher by Profession!"
+echo "This job is to demonstrate the poll scm trigger"
