@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        label 'javajob'
+        label 'Built-In'
     }
 
     stages{
