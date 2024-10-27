@@ -8,7 +8,9 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                build()
+                script{
+                    build()
+                }
             }
         }
         stage('Deliver'){
