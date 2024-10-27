@@ -1,3 +1,5 @@
+@Library ('jenkins-sharedlib-b12')_
+
 pipeline{
     agent {
         label 'Built-In'
@@ -6,10 +8,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                echo "Hello I'm in Build stage"
-                sh '''
-                    ./demo.sh
-                '''
+                build()
             }
         }
         stage('Deliver'){
