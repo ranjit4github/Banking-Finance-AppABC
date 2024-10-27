@@ -1,9 +1,7 @@
 @Library ('jenkins-sharedlib-b12')_
 
 pipeline{
-    agent {
-        label 'Built-In'
-    }
+    agent any
 
     stages{
         stage('Build'){
