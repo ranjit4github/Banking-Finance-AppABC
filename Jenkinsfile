@@ -13,7 +13,9 @@ pipeline{
         }
         stage('Deliver'){
             steps{
-                echo "Hello I'm in Deliver stage"
+                script{
+                    deliver()
+                }
             }
         }
     }
